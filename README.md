@@ -39,7 +39,7 @@ Function calculate the hash value of the file by using SHA-1 algorithm
 
 ### request.get(https://api.metadefender.com/v4/file/:dataId)
 
-Function that call the get function by finding a file with a "data_id". This would scanned the file that is uploaded and checked wether or not is has completely scanned 
+Function that call the get function by finding a file with a "data_id". This would scanned the file that is uploaded and checked wether or not it has completely scanned and upload to a cloud engine.
 
 ### request.post(https://api.metadefender.com/v4/file)
 
@@ -47,4 +47,4 @@ Function that call the post function that will upload a file to the MetaDefender
 
 ### request.get(https://api.metadefender.com/v4/file/:hash)
 
-Function that call a get function from a file hash value. For this hash value is calculated from SHA-1 algorithm.
+Function that call a get function from a file hash value. For this hash its calculated from SHA-1 algorithm.
