@@ -24,7 +24,7 @@ To start the program you must be at the main file directory, where the program i
 ```bash
 python app.py sample.txt
 ```
-You always need to include a file name alonside the program in order for it work 
+You always need to include a file name alonside the program in order for it work. Furthermore, the file should be at the same directory with the main program. 
 
 ## Main Purpose
 
